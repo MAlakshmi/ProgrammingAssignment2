@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-#Write a short comment describing this function
+## the following functions perform inverse of a given matrix and caluculate the inverse and store in cache
+## when inverse of a matrix is required, it first checks if it is available in cache
+##  if so, the cahed inverse is given else it caluculates the inverse and store in cache for next use
 
 #  create a matrix for which inverse is to be determined
 makeCacheMatrix <- function(x = numeric(),n=2) 
